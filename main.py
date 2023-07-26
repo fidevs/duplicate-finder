@@ -44,7 +44,7 @@ def main(root_path:str):
     collection = []
     coincidences = {}
 
-    for file in all_files[:10]:
+    for file in all_files:
         current_key = file["path"]
         current = file ["name"]
         coincidences[current_key] = []
